@@ -187,7 +187,13 @@ h1 {
 	height: 400px; 
 	z-index: 100;}
 
-.fireart {background-image: url(../Pic/Camera.jpg); }
+.fireart {
+	background-image: url(../Pic/Bruiloft.jpg);
+}
+
+.promotieart {
+	background-image: url(../Pic/Promo.jpg);
+}
 
 .playbutton{
 	position: absolute; 
