@@ -173,6 +173,46 @@ h1 {
 	float: left;
 	position: relative;}
 
+.placeholder_videografie {
+	width: 200px;
+	height: 200px;
+	background-image: url(../Pic/Salt.jpg);
+	margin: 20px;
+	float: left;
+	position: relative;}
+	
+.placeholder_evenementen {
+	width: 200px;
+	height: 200px;
+	background-image: url(../Pic/Drumstel.jpg);
+	margin: 20px;
+	float: left;
+	position: relative;}
+
+.placeholder_trouwen {
+	width: 200px;
+	height: 200px;
+	background-image: url(../Pic/Drumstel.jpg);
+	margin: 20px;
+	float: left;
+	position: relative;}
+
+.placeholder_promotie {
+	width: 200px;
+	height: 200px;
+	background-image: url(../Pic/Promotie.jpg);
+	margin: 20px;
+	float: left;
+	position: relative;}
+
+.placeholder_editor {
+	width: 200px;
+	height: 200px;
+	background-image: url(../Pic/Editor.jpg);
+	margin: 20px;
+	float: left;
+	position: relative;}
+
 .postaudioplayer{
 	width: 640px; 
 	height: 360px; 
@@ -187,13 +227,7 @@ h1 {
 	height: 400px; 
 	z-index: 100;}
 
-.fireart {
-	background-image: url(../Pic/Bruiloft.jpg);
-}
-
-.promotieart {
-	background-image: url(../Pic/Promo.jpg);
-}
+.fireart {background-image: url(../Pic/Camera.jpg); }
 
 .playbutton{
 	position: absolute; 
@@ -242,6 +276,7 @@ h1 {
 
 #entersprite img {width: 100%;}
 
+$("#youtubeLink").YouTubePopup({ youtubeId: 'RM9DPfp7-Ck', title: 'My New Title' });
 
 .more-link {
 	font-size: 24px; 
@@ -275,7 +310,9 @@ h1 {
 
 
 .postwrapper img {opacity:0.5;}
-.postwrapper img:hover {opacity:1;}
+.postwrapper img:hover {
+	opacity: 1;
+}
 
 .postdescription {font-size: 19px; line-height: 19px; position: relative; font-family: 'GothamLight', Helvetica, sans-serif;}
 
